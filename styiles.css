@@ -1,7 +1,7 @@
 body{
     background: url(W.jpg);
     background-size: cover;
-    border: 1px solid black;
+   
 }
 .foto_album{
     display: flex;
@@ -10,7 +10,7 @@ body{
     width: 60%;
     overflow: scroll;
     height: 500px;
-    border: 1px solid rgb(230, 18, 18);
+    
 }
 .foto{
     width: 40%;
@@ -18,34 +18,30 @@ body{
     justify-content: center;
     align-items: center;
     height: 600px;
-    border: 1px solid rgb(98, 18, 163);
-
+    
 }
 .foto img{
     width: 100%;
-    border: 1px solid greenyellow;
+
 }
+
 /* width */
 ::-webkit-scrollbar {
-    width: 0px;
-  
+    display: none;
+    width: 10px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 0px;
+    background: #f1f1f1;
   }
-   
+  
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: black; 
-    border-radius: 0px;
-    height : 0px;
+    background: #888;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: green; 
-    height : 0px;
+    background: #555;
   }
